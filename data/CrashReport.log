@@ -1,0 +1,40 @@
+WARNING:root:DUGA has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\MAIN.py", line 447, in main_loop
+    render_screen(gameCanvas.canvas)
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\MAIN.py", line 294, in render_screen
+    gameInv.draw(gameCanvas.canvas)
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\INVENTORY.py", line 218, in draw
+    self.draw_menu(canvas)
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\INVENTORY.py", line 324, in draw_menu
+    SETTINGS.held_ammo[SETTINGS.inventory[self.selected].ammo_type] += SETTINGS.current_gun.current_mag
+AttributeError: 'NoneType' object has no attribute 'current_mag'
+WARNING:root:DUGA has crashed. Please send this report to MaxwellSalmon, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\MAIN.py", line 447, in main_loop
+    render_screen(gameCanvas.canvas)
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\MAIN.py", line 294, in render_screen
+    gameInv.draw(gameCanvas.canvas)
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\INVENTORY.py", line 218, in draw
+    self.draw_menu(canvas)
+  File "C:\Users\amaua004\Downloads\DUGA-master\DUGA-master\INVENTORY.py", line 324, in draw_menu
+    SETTINGS.held_ammo[SETTINGS.inventory[self.selected].ammo_type] += SETTINGS.current_gun.current_mag
+AttributeError: 'NoneType' object has no attribute 'current_mag'
+WARNING:root:DUGA has crashed. Please send this report to HakermanOfficial, so he can fix it.
+ERROR:root:Error message: 
+Traceback (most recent call last):
+  File "C:\Users\amaua004\Downloads\John_Doe's_Escape\John_Doe's_Escape\MAIN.py", line 442, in main_loop
+    gameRaycast.calculate()
+  File "C:\Users\amaua004\Downloads\John_Doe's_Escape\John_Doe's_Escape\RAYCAST.py", line 102, in calculate
+    self.cast(SETTINGS.player_rect, degree, ray_number)
+  File "C:\Users\amaua004\Downloads\John_Doe's_Escape\John_Doe's_Escape\RAYCAST.py", line 310, in cast
+    self.control(end_pos, ray_number, tile_len, player_rect, texture, offset, current_tile, vh)
+  File "C:\Users\amaua004\Downloads\John_Doe's_Escape\John_Doe's_Escape\RAYCAST.py", line 319, in control
+    self.render_screen(ray_number, wall_dist, texture, int(offset), current_tile, vh, end_pos)
+  File "C:\Users\amaua004\Downloads\John_Doe's_Escape\John_Doe's_Escape\RAYCAST.py", line 332, in render_screen
+    SETTINGS.zbuffer[ray_number].update_rect(rendered_slice)
+  File "C:\Users\amaua004\Downloads\John_Doe's_Escape\John_Doe's_Escape\RAYCAST.py", line 30, in update_rect
+    self.darkslice = pygame.Surface(self.tempslice.get_size()).convert_alpha()
+pygame.error: Out of memory
