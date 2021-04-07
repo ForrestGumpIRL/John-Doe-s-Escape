@@ -1,0 +1,11 @@
+modules: pygame
+           math
+           os
+           pickle
+           logging
+           sys
+
+write following in the windows search:
+pip install (module)
+
+example: pip install pygame
